@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+	height:100%;
+	width:100%;
+	background-color: #73695bfc;
+	
+}
+ 
+.navigation{
+	background:#353f4afa;
+	padding-top: 75px;
+}
+.h-style{
+	color: Black;
+	text-align: center;
+	font-size: 46px;
+    font-family: fantasy;
+}
+
+header a{
+	color: #38215d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 5px;
+
+}
+
+header nav{
+
+	float:left;
+	min-height: 50px;
+}
+
+
+header a:hover{
+	color: #cccccc;
+	font-weight:bold;
+
+}
+.pagehead{
+	text-align: center;
+	padding-left: 40%;
+    padding-right: 40%;
+    width: max-content;
+}
+.paragraph{
+	color: #a3c6ec;
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px 0px 108px;
+} 
+#backImg{
+	background: url('img/back_img.jpg');
+}
+main{
+	text-align: center;
+	color:#D2691E;
+}
+.logo{
+	width:50px;
+}
+.name1{
+	width: 50px;
+} 
+h3{
+	color: black;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+*{
+	box-sizing: border-box;
+}
+.img
+{
+	border: 1px solid black;
+	padding:6px;
+	float: left;
+	width: 25%;
+}
+.img img{
+	width: 100%;
+	height: auto;
+}
+.name{
+	padding: 15px;
+	text-align: center;
+	color: black;
+	font-family: cursive;
+}
+
+@media only screen and (max-width: 700px){
+	.img{
+		width: 100%;
+		margin: 6px 0;
+	
+	}
+	.pagehead{
+		text-align: center;
+	}
+	
+}
+
+.btn{
+    padding: 5px;
+	font:10px/1.5 Times New Roman ;
+	text-align: center;
+}
+.btn button
+{
+    color: #4b3d4e;
+    border: solid;
+    border-color: black;
+    width: 50px;
+} 
